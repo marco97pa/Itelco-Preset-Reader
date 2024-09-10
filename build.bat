@@ -1,0 +1,1 @@
+pyinstaller --clean -y -n "ItelcoPresetReader" --add-data=".\icon.ico;." --icon=".\icon.ico" --onefile --windowed .\preset_visual.py
